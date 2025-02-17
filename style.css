@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+}
+
+.satunya {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.badan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara elemen */
+    margin-top: 20px;
+}
+
+.badan img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.badan button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.kanan {
+    background-color: #3498db;
+    color: white;
+}
+
+.kiri {
+    background-color: #e74c3c;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
